@@ -1,0 +1,184 @@
+nav{
+    background-color: purple;
+}
+nav > a{
+    color: white;
+}
+nav > .collapse > ul > li > a{
+    color: white;
+}
+.container{
+    align-items: center;
+}
+.container > h2{
+    font-size: 35px;
+}
+.container > p{
+    font-size: 20px;
+}
+.container > form{
+    align-content: center;
+    justify-content: center;
+}
+.container > ul > li{
+    font-size: 20px;
+}
+.container > ol > li{
+    font-size: 20px;
+}
+.container > .content{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 50px;
+}
+.container > .content > .type > ol > li{
+    font-size: 20px;
+}
+.container > .content > .photographer > ul > li{
+    font-size: 20px;
+}
+#Register{
+    width:400px;
+    height:auto;
+    overflow:hidden; 
+    padding-bottom:20px; 
+    margin-left:auto; 
+    margin-right:auto; 
+    border-radius:5px;
+    padding-left:10px;
+    margin-top:100px;
+    border-top:3px double #f1f1f1; 
+    border-bottom:3px double #f1f1f1; 
+    padding-top:20px;
+    }
+    
+    #Register table
+    {
+        font-family:"Comic Sans MS", cursive;
+    }
+    /* css code for textbox */
+    #Register .tb{
+    height:28px;
+    width:230px;
+    border:1px solid #f26724;
+    color:#fd7838;
+    font-weight:bold;
+    border-left:5px solid #f7f7f7;
+    opacity:0.9;
+ }
+    
+    #Register .tb:focus{
+        height:28px; 
+        border:1px solid #f26724; 
+        outline:none; 
+        border-left:5px solid #f7f7f7;
+    }
+
+    #Register .btn{
+    width:150px;
+    height:32px; 
+    outline:none;  
+    color:#f7f7f7; 
+    font-weight:bold; 
+    border:0px solid #f26724; 
+    text-shadow: 0px 0.5px 0.5px #fff; 
+    border-radius: 2px; 
+    font-weight: 600;
+    color: #f26724; 
+    letter-spacing: 1px; 
+    font-size:14px; 
+    background-color:#f1f1f1; -webkit-transition: 1s; -moz-transition: 1s; transition: 1s;
+}
+  
+    #Register .btn:hover
+    {
+    background-color:#f26724; 
+    outline:none;  
+    border-radius: 2px; 
+    color:#f1f1f1; 
+    border:1px solid #f1f1f1;
+    -webkit-transition: 1s; 
+    -moz-transition: 1s; 
+    transition: 1s; 
+}
+@keyframes backgroundColorPalette {
+	0% {
+		background: #ee6055;
+	}
+	25% {
+		background: #60d394;
+	}
+	50% {
+		background: #aaf683;
+	}
+	75% {
+		background: #ffd97d;
+	}
+	100% {
+		background: #ff9b85;
+	}
+}
+#Login{
+    width:600px;
+    height:auto;
+    overflow:hidden; 
+    padding-bottom:20px; 
+    margin-left:auto; 
+    margin-right:auto; 
+    border-radius:5px;
+    padding-left:10px;
+    margin-top:100px;
+    border-top:3px double #f1f1f1; 
+    border-bottom:3px double #f1f1f1; 
+    padding-top:20px;
+    }
+    
+    #Login table
+    {
+        font-family:"Comic Sans MS", cursive;
+    }
+    /* css code for textbox */
+    #Login .tb{
+    height:28px;
+    width:230px;
+    border:1px solid #f26724;
+    color:#fd7838;
+    font-weight:bold;
+    border-left:5px solid #f7f7f7;
+    opacity:0.9;
+ }
+    
+    #Login .tb:focus{
+        height:28px; 
+        border:1px solid #f26724; 
+        outline:none; 
+        border-left:5px solid #f7f7f7;
+    }
+
+    #Login .btn{
+    width:150px;
+    height:32px; 
+    outline:none;  
+    color:#f7f7f7; 
+    font-weight:bold; 
+    border:0px solid #f26724; 
+    text-shadow: 0px 0.5px 0.5px #fff; 
+    border-radius: 2px; 
+    font-weight: 600;
+    color: #f26724; 
+    letter-spacing: 1px; 
+    font-size:14px; 
+    background-color:#f1f1f1; -webkit-transition: 1s; -moz-transition: 1s; transition: 1s;
+}
+  
+    #Login .btn:hover
+    {
+    background-color:#f26724; 
+    outline:none;  
+    border-radius: 2px; 
+    color:#f1f1f1; 
+    border:1px solid #f1f1f1;
+    -webkit-transition: 1s; 
+    -moz-transition: 1s; 
+    transition: 1s; 
+}
